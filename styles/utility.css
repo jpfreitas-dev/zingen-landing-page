@@ -15,7 +15,6 @@
 }
 
 .container {
-  /* border: solid violet; */
   margin-inline: auto;
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
