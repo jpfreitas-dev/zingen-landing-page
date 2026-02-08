@@ -30,7 +30,5 @@ A estrutura utiliza unidades flexíveis e consultas de largura para garantir que
 * **Containers Fluídos**: Uso de `max-width` e margens automáticas para centralização.
 * **Adaptação Desktop**: Ajustes específicos para telas largas, geralmente acima de 80em.
 
-### Como Visualizar o Projeto
-
-1. Clone este repositório para a sua máquina local.
-2. Abra o arquivo `index.html` no seu navegador de preferência.
+### Link do projeto:
+* https://jpfreitas-dev.github.io/zingen-landing-page/
