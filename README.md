@@ -1,34 +1,93 @@
-# Zingen - Karaokê App
+# Zingen — Landing Page de Karaokê
 
-O **Zingen** é uma landing page de um serviço de karaokê que utiliza Inteligência Artificial para remover vozes de músicas. Este projeto foi desenvolvido para consolidar conhecimentos avançados em **HTML5** e **CSS3**, com foco total em **responsividade** e organização de código profissional.
+Landing page responsiva para o Zingen, um aplicativo de karaokê que usa inteligência artificial para remover a voz original das músicas e ajudar o usuário a evoluir sua performance.
 
-### Tecnologias Utilizadas
+## Sobre o projeto
 
-* **HTML5**: Estruturação semântica de todas as seções da página.
-* **CSS3**: Estilização avançada com as seguintes técnicas:
-    * **Custom Properties (Variáveis)**: Gestão centralizada de cores, fontes e espaçamentos para garantir consistência.
-    * **CSS Modular**: Divisão de estilos por componentes para melhor manutenção.
-    * **Flexbox & CSS Grid**: Utilizados para criar layouts complexos e grelhas adaptativas.
-    * **Responsividade**: Implementação de *Media Queries* para suporte a dispositivos móveis e desktop.
+O projeto apresenta o conceito do Zingen para pessoas interessadas em cantar, gravar performances e participar de uma comunidade musical. A interface foi construída como um projeto de estudo de HTML e CSS, com foco em responsividade, hierarquia visual e organização modular dos estilos.
 
-### Destaques Técnicos
+## Funcionalidades
 
-### Arquitetura de Estilos Modular
-O projeto utiliza uma estrutura modular onde a lógica é dividida em arquivos importados no `index.css`:
-* `global.css`: Resets e definições base de root.
-* `utility.css`: Classes utilitárias para agilizar o desenvolvimento.
-* `buttons.css`: Estilização isolada de botões e estados interativos.
+- Hero section com chamada principal e ações de navegação.
+- Apresentação do aplicativo e de suas funcionalidades.
+- Cards com recursos como biblioteca de músicas, gamificação, gravação, comunidade e letras em tempo real.
+- Seção de planos Básico, Premium e Família.
+- Área de download com botões para App Store e Google Play.
+- Layout responsivo para dispositivos móveis e telas maiores.
+- Estados de hover e foco visível para melhorar a interação e a acessibilidade.
 
-### Componentização de Interface
-A página é composta por seções independentes e bem estruturadas:
-* **Hero Section**: Área de impacto com chamadas principais e integração visual.
-* **Features**: Grelha de funcionalidades com cards que utilizam `overflow: hidden` para estabilidade visual.
-* **Pricing**: Tabela de preços com diferentes níveis de assinatura (Básico, Premium e Família).
+## Demonstração
 
-### Design Responsivo e Mobile First
-A estrutura utiliza unidades flexíveis e consultas de largura para garantir que a experiência de navegação seja excelente em qualquer tela:
-* **Containers Fluídos**: Uso de `max-width` e margens automáticas para centralização.
-* **Adaptação Desktop**: Ajustes específicos para telas largas, geralmente acima de 80em.
+Acesse a [versão publicada no GitHub Pages](https://jpfreitas-dev.github.io/zingen-landing-page/).
 
-### Link do projeto:
-* https://jpfreitas-dev.github.io/zingen-landing-page/
+### Screenshots
+
+<p align="center">
+  <img src="assets/screenshot1.png" alt="Screenshot 1 da landing page Zingen" width="49%">
+  <img src="assets/screenshot2.png" alt="Screenshot 2 da landing page Zingen" width="49%">
+</p>
+<p align="center">
+  <img src="assets/screenshot3.png" alt="Screenshot 3 da landing page Zingen" width="49%">
+  <img src="assets/screenshot4.png" alt="Screenshot 4 da landing page Zingen" width="49%">
+</p>
+<p align="center">
+  <img src="assets/screenshot5.png" alt="Screenshot 5 da landing page Zingen" width="49%">
+</p>
+
+## Tecnologias utilizadas
+
+- HTML5 semântico.
+- CSS3.
+- CSS Grid e Flexbox para a construção dos layouts.
+- Custom Properties para cores, tipografia e espaçamentos.
+- Media Queries para adaptação responsiva.
+- Google Fonts para a tipografia da interface.
+- GitHub Pages para publicação.
+
+Os estilos foram separados por responsabilidade — base global, utilitários, botões, cards, seções, preços, download e rodapé — para facilitar a manutenção do projeto.
+
+## Como executar localmente
+
+### Pré-requisitos
+
+- Um navegador moderno.
+- Opcionalmente, uma extensão de servidor local, como Live Server.
+
+### Execução
+
+Clone o repositório e abra o arquivo `index.html` no navegador:
+
+```bash
+git clone https://github.com/jpfreitas-dev/zingen-landing-page.git
+cd zingen-landing-page
+```
+
+Depois, abra `index.html` diretamente ou inicie um servidor local pela extensão Live Server.
+
+Este projeto não possui dependências npm, banco de dados, variáveis de ambiente ou etapa de build.
+
+## Estrutura do projeto
+
+```text
+.
+├── assets/       # Imagens, ilustrações, logo e ícones
+├── styles/       # Folhas de estilo organizadas por responsabilidade
+├── index.html    # Estrutura principal da landing page
+└── README.md     # Documentação do projeto
+```
+
+## Status do projeto
+
+Concluído como projeto de estudo e demonstração visual. A landing page está publicada e pode receber novas melhorias de conteúdo e integração no futuro.
+
+## Próximos passos
+
+- Substituir os links demonstrativos pelos links reais das lojas de aplicativos.
+- Conectar os links de redes sociais e páginas institucionais.
+- Adicionar uma navegação mobile expansível, caso o menu cresça.
+- Validar a interface em mais navegadores e tamanhos de tela.
+- Adicionar testes automatizados de acessibilidade e verificação visual.
+
+## Aprendizados
+
+O projeto reforçou a construção de interfaces responsivas com HTML e CSS, especialmente a organização de estilos por módulos, o uso combinado de Grid e Flexbox e a criação de componentes visuais reutilizáveis com Custom Properties.

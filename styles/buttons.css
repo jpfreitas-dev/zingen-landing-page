@@ -14,6 +14,8 @@
 
   cursor: pointer;
 
+  transition: transform .2s ease, background .2s ease, color .2s ease;
+
   background: var(--btn-bg-color);
   color: var(--btn-color);
 }
@@ -25,6 +27,13 @@
   -webkit-background-clip: initial;
   background-clip: initial;
   color: var(--btn-color);
+  transform: translateY(-2px);
+}
+
+.btn:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--brand-color-primary);
+  outline-offset: 4px;
 }
 
 
@@ -35,7 +44,7 @@
 
 .btn-md {
   padding: .75rem 1.5rem;
-  font-size: var(--ff-base);
+  font-size: var(--fs-base);
 }
 
 .btn-lg {
